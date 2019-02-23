@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:ml="magicleap" ml:package="com.company.livestream" ml:version_code="1" ml:version_name="">
+  <application ml:visible_name="TestProject" ml:sdk_version="1.0" ml:min_api_level="3">
+    <uses-privilege ml:name="LowLatencyLightwear" />
+    <uses-privilege ml:name="CameraCapture" />
+    <uses-privilege ml:name="AudioCaptureMic" />
+<uses-privilege ml:name="Internet"/>
+ <uses-privilege ml:name="LocalAreaNetwork" />
+    <component ml:name=".fullscreen" ml:visible_name="TestProject" ml:binary_name="bin/Player.elf" ml:type="Fullscreen">
+      <icon ml:model_folder="Icon/Model" ml:portal_folder="Icon/Portal" />
+    </component>
+  </application>
+</manifest>
