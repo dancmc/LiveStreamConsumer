@@ -666,7 +666,7 @@ PlayerSettings:
     m_ModelFolderPath: 
     m_PortalFolderPath: 
   luminCert:
-    m_CertPath: /Users/daniel/Documents/MLProjects/Hello Cube/arhospital.cert
+    m_CertPath: /Users/daniel/Documents/MLProjects/LiveStreamConsumer/arhospital.cert
     m_PrivateKeyPath: 
   luminIsChannelApp: 0
   luminVersion:

@@ -42,7 +42,7 @@
 			
 			
 			sampler2D _MainTex;
-			// overlay is the in game holograms
+			// overlay refers to game holograms
 			sampler2D _Overlay;
 
 			fixed4 frag (v2f i) : SV_Target
@@ -50,6 +50,7 @@
 			    // we need to gamma correct the holograms but not the ext camera
 			    // then output everything in linear color space so the rendertexture doesn't do conversion on the whole thing
 			    
+			    // tried to account manually for distortion and offset but gave up
 //			    float baseX = i.uv.x*0.6666+0.3333;
 //			    fixed4 colBase = tex2D(_MainTex, float2(baseX,i.uv.y));
 				fixed4 colBase = tex2D(_MainTex, i.uv);
